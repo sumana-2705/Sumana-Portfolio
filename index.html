@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body>
+<body class="body">
     <header class="header">
         <a href="#" class="logo">A.Sumana Sree</a>
         <nav class="navbar">
@@ -53,9 +53,9 @@
     </section>
     
     <section id="contact-me" class="contact-form">
-        <h2 class="contact-me">Contact <span>Me</span></h2>
-
-        <form action="#">
+        <div class="contact-box">
+            <h2 class="contact-me">Contact <span>Me</span></h2>
+            <form action="#">
             <div class="input-box">
                 <input type="text" placeholder="Name">
                 <input type="email" placeholder="Email">
@@ -66,9 +66,10 @@
                 <input type="text" placeholder="Subject">
             </div>
 
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
             <input type="submit" value="Send Message" class="btn-1">
         </form>
+        </div>
     </section>
     
     <footer class="footer">

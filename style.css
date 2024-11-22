@@ -75,6 +75,9 @@ span{
     color: whitesmoke;
 }
 
+.body{
+    background-color: whitesmoke;
+}
 .home{
     width: 100%;
     min-height: 100vh;
@@ -189,18 +192,26 @@ span{
     margin: 2em 0 3em;
 }
 
-
+.contact-box{
+    justify-content: center;
+    margin: 0%;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.contact-form{
+    height: 100vh;
+}
 .contact-form h2{
     text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
     font-size: 36px;
+    padding-top: 0.8em;
 }
 .contact-form form{
     max-width: 50em;
     margin: 1rem auto;
     text-align: center;
-    margin-bottom: 3em;
+    padding-bottom: 1em;
+    background: whitesmoke;
 }
 .contact-form form .input-box input,
 .contact-form form textarea{
