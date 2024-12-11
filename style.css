@@ -246,25 +246,34 @@ span{
 
 .contact-box{
     justify-content: center;
-    margin: 0%;
+    margin: 0;
     align-items: center;
     background-color: whitesmoke;
 }
 .contact-form{
     height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
 }
 .contact-form h2{
     text-align: center;
     font-size: 36px;
-    padding-top: 0.8em;
+    padding-top: 9rem;
+    padding-bottom: 2rem;
 }
 .contact-form form{
     max-width: 50em;
-    margin: 1rem auto;
+    margin: auto;
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
     background: whitesmoke;
 }
+
+.input-box{
+    display: flex;
+    gap: 5rem;
+}
+
 .contact-form form .input-box input,
 .contact-form form textarea{
     width: 100%;
