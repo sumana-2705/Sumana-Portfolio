@@ -204,7 +204,7 @@ span{
 }
 
 .projects{
-    padding:12% 4%;
+    padding:9% 4%;
 
 }
 .flex-box{
@@ -232,7 +232,7 @@ span{
     border: 2px solid black;
 }
 
-.image{
+.image a{
     width: 100%;
     height: auto;
     max-height: 150px;
@@ -247,7 +247,12 @@ span{
     height: auto;
     object-fit: cover;
 }
+.project-content a{
+    color: black;
+    text-decoration: underline;
+}
 .project-content{
+    color: black;
     padding: 1rem 0 0 0;
     overflow: hidden;
     display: flex;
